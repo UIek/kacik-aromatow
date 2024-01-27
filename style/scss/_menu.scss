@@ -1,0 +1,45 @@
+.menu{
+    width: 100%;
+    height: auto;
+    // margin-top: $hheight;
+    background-image: url('img/coffee-1331428_1280.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .karta{
+        background-color: $menucolor;
+        width: 75%;
+        height: auto;
+        margin: $margin;
+        box-shadow: $shadow;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: $fontsize1;
+            font-family: $fontfamyly1;
+            margin-bottom: $h1margin;
+        }
+        .poz{
+            font-size: $fontsize2;
+            font-family: $fontfamyly2;
+            display: flex;
+            flex-direction: column;
+            align-self: start;
+            margin: $pmargin;
+            h2{
+                font-variant: normal;
+                font-weight: bold;
+            }
+            p{
+                font-variant: small-caps;
+            }
+        }
+    }
+}

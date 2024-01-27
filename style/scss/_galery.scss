@@ -1,0 +1,30 @@
+.galeria{
+    background-color: $galeriacolor;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        width: $zdjwidth;
+        height: auto;
+        margin: $margin;
+        background-color: $zdjcolor;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $shadow;
+        img{
+            width: 75%;
+            height: auto;
+            margin: $pmargin;
+        }
+        p{
+            color: $fontcolor;
+            font-size: $fontsize2;
+            font-family: $fontfamyly2;
+            margin: $pmargin;
+        }
+    }
+}

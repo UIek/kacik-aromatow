@@ -1,0 +1,47 @@
+header{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    background-color: $headercolor;
+    height: $hheight ;
+    width: 100%;
+    position: relative;
+    box-shadow: $shadow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        font-size: $hfontsize2;
+        font-family: $fontfamyly2;
+        color: $hfontcolor;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: $h1margin;
+        a{
+            color: $hfontcolor;
+        }
+        a:hover{
+            color: $hovercolor;
+        }
+    }
+    .a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h2{
+            font-family: $fontfamyly1;
+            font-size:$hfontsize1;
+            color: $hfontcolor;
+        }
+    }
+    img{
+        height: $hheight;
+    }
+}

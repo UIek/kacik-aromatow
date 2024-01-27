@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  background-color: rgb(181, 181, 255);
+  height: 15vw;
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.549);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 3vw;
+  font-family: monospace;
+  color: rgb(255, 236, 173);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 3vw;
+}
+header h1 a {
+  color: rgb(255, 236, 173);
+}
+header h1 a:hover {
+  color: rgb(98, 85, 199);
+}
+header .a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .img h2 {
+  font-family: Bradley Hand, cursive;
+  font-size: 4vw;
+  color: rgb(255, 236, 173);
+}
+header img {
+  height: 15vw;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  background-image: url("img/coffee-1331428_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .karta {
+  background-color: rgba(222, 235, 255, 0.651);
+  width: 75%;
+  height: auto;
+  margin: 5vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.549);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .karta h1 {
+  font-size: 40px;
+  font-family: Bradley Hand, cursive;
+  margin-bottom: 3vw;
+}
+.menu .karta .poz {
+  font-size: 25px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  margin: 20px;
+}
+.menu .karta .poz h2 {
+  font-variant: normal;
+  font-weight: bold;
+}
+.menu .karta .poz p {
+  font-variant: small-caps;
+}
+
+.historia {
+  width: 100%;
+  height: auto;
+  background-color: rgb(233, 248, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.historia .karta {
+  width: 75%;
+  height: auto;
+  background-image: url("img/paper-1074131_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.549);
+  display: flex;
+  flex-direction: column;
+}
+.historia .karta p {
+  font-size: 2vw;
+  font-family: Bradley Hand, cursive;
+  color: black;
+  margin: 20px;
+}
+
+.galeria {
+  background-color: rgb(233, 248, 245);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria div {
+  width: 35vw;
+  height: auto;
+  margin: 5vw;
+  background-color: rgba(0, 0, 0, 0.074);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.549);
+}
+.galeria div img {
+  width: 75%;
+  height: auto;
+  margin: 20px;
+}
+.galeria div p {
+  color: black;
+  font-size: 25px;
+  font-family: monospace;
+  margin: 20px;
+}
+
+footer {
+  background-color: rgb(98, 85, 199);
+  width: 100%;
+  height: 20vw;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.549);
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+footer div {
+  color: rgb(181, 181, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3vw;
+}
+footer div h1 {
+  font-size: 3vw;
+  font-family: Bradley Hand, cursive;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+footer div p {
+  font-size: 2vw;
+  font-family: monospace;
+}/*# sourceMappingURL=main.css.map */

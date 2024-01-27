@@ -1,0 +1,26 @@
+.historia{
+    width: 100%;
+    height: auto;
+    background-color: $onascolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .karta{
+        width: 75%;
+        height: auto;
+        background-image: url('img/paper-1074131_1280.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: $margin;
+        box-shadow: $shadow;
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: $ffontsize2;
+            font-family: $fontfamyly1;
+            color: $fontcolor;
+            margin: $pmargin;
+        }
+    }
+}
